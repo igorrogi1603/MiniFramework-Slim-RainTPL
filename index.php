@@ -16,7 +16,6 @@ $app->config("debug", true);
 
 require_once("Route/admin/admin.php");
 require_once("Route/site/site.php");
-require_once("Route/cliente/cliente.php");
 
 $app->run();
 
